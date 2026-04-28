@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)  # 啟用CORS支持
 
 # 配置 Google Generative AI 服務
-genai.configure(api_key="AIzaSyBjDPGhQMqOCwfy2trr0W_WEmkV4Tjr5yo")
+genai.configure(api_key="")
 
 # 初始化生成模型和對話
 generation_config = {
