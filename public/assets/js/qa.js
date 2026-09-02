@@ -41,13 +41,13 @@ document.getElementById("qaForm").addEventListener("submit", function (event) {
 
   var config = window.QA_CONFIG || {};
   var question = document.getElementById("question").value;
+  // user_id 不從這裡送：AI 服務用不到，而 save_response.php 取自 session。
   var payload = {
     user_input: question,
     height: config.height,
     weight: config.weight,
     dislikes: config.dislikes,
     goal: config.goal,
-    user_id: config.userId,
   };
 
   var askButton = document.querySelector('button[type="submit"]');

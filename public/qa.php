@@ -39,7 +39,6 @@ require __DIR__ . '/includes/header.php';
             'weight'       => $profile['weight'] ?? '',
             'dislikes'     => $profile['dislikes'] ?? '',
             'goal'         => $profile['goal'] ?? '',
-            'userId'       => $user_id,
         ], JSON_UNESCAPED_UNICODE) ?>;
     </script>
 <?php require __DIR__ . '/includes/footer.php'; ?>
