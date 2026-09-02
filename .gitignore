@@ -1,0 +1,21 @@
+# Python（ai-service）
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# PHP
+vendor/
+
+# 環境設定與機密
+.env
+*.local.php
+
+# 編輯器與作業系統
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日誌
+*.log
